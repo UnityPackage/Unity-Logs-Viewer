@@ -6,6 +6,6 @@ git add -A
 git commit -m "uv"
 git pull
 git push
-git subtree split --prefix=${MODEL_PATH} --branch upm$1
-git tag $1 upm$1
-git push origin upm$1 --tags
+git subtree split --prefix=${MODEL_PATH} --branch upm
+git tag $1 upm
+git push origin upm --tags
