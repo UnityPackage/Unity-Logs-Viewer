@@ -9,6 +9,7 @@ git push
 
 # git push origin --delete upm
 # git branch -D upm
+# git tag -d $1
 # git push origin :refs/tags/$1
 
 git subtree split --prefix=${MODEL_PATH} --branch upm
