@@ -7,5 +7,6 @@ git commit -m "uv"
 git pull
 git push
 git subtree split --prefix=${MODEL_PATH} --branch upm
+# git push origin :refs/tags/$1
 git tag $1 upm
 git push origin upm --tags
