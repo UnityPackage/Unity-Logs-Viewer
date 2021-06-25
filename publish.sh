@@ -1,4 +1,4 @@
-MODEL_PATH="Unity-Logs-Viewer"
+MODEL_PATH="Assets/Unity-Logs-Viewer"
 cat ${MODEL_PATH}/package.json | jq 'del(.version)' | jq '. + { "version": "sdkver" }'>>tmp
 mv tmp ${MODEL_PATH}/package.json
 sed -i '' 's/sdkver/'"$1"'/'  ${MODEL_PATH}/package.json
