@@ -1,0 +1,17 @@
+{
+    "name": "UnityLogsViewer.Editor",
+    "references": [
+        "GUID:da9156fbb891e475a836f5f988a438d5"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
