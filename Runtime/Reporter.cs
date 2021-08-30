@@ -303,6 +303,12 @@ public class Reporter : MonoBehaviour
 
 	void Awake()
 	{
+#if ENABLE_LOG || UNITY_EDITOR
+		created = false;
+#else
+		created = true;
+#endif
+		
 		if (!Initialized)
 			Initialize();
 
